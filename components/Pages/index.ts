@@ -69,3 +69,20 @@ export const Second = {
     }
   `
 }
+
+export const Third = {
+  Section: styled.section`
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 4rem;
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+  `,
+  SelectContainer: styled.div`
+    width: 500px;
+  `
+}
