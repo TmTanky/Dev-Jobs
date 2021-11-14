@@ -19,6 +19,10 @@ export const S = {
     height: 400px;
     /* justify-content: center; */
     box-shadow: 0px 7px 10px 0px #dbdbdb;
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+      width: 100%;
+      box-shadow: none;
+    }
   `,
   Button: styled.button`
     background-color: #358856;
@@ -51,6 +55,7 @@ export const S = {
     margin: 10px 0;
     border: solid black 0.5px;
     outline: none;
+    width: 100%;
   `,
   LinkContainer: styled.div``
 }
